@@ -35,7 +35,6 @@ typedef struct s_flag
 }				t_flags;
 
 typedef int		(*t_func)(va_list, t_flags *);
-//extern t_func	g_function_pointer[];
 ////////////////////////////////////////////////////////////
 //	#	PRINTF
 int		f_1(const char *str, int *i, va_list args);
